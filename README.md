@@ -1,5 +1,5 @@
 
-# Desing Pattren for OOP programming - Clean and Mantainable code
+# Desing Pattren for OOP programming
 
 
 
