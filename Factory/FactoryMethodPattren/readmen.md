@@ -20,4 +20,12 @@ The Factory Method Pattern,
             as a exaple our PizzaStore is high-level component, Because it behaviors define in pizza it use to create.
 ---
 
+**Guidelines for define Dependency Inversion Principle**
+
+    - No variable should hold a reference to a concrete class.
+    - No class should derive from a concrete class.
+    - No method should override an implemented method of any of its base classes.
+
+---
+
 
