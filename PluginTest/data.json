@@ -1,0 +1,14 @@
+
+{
+  "characters": [
+    {
+      "type": "Human",
+      "name": "Aragon"
+    },
+    {
+      "type": "Elf",
+      "name": "eols"
+    }
+  ]
+}
+
