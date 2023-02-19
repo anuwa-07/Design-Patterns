@@ -3,6 +3,9 @@ from SimpleFactory.pizza import Pizza
 
 
 class CheesePizza(Pizza):
+    def __str__(self) -> str:
+        return "This is CheesePizza Object!"
+
     def prepare(self) -> None:
         print("Cheese Pizza is going to Prepare!")
 

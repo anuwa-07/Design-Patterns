@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
-from pizza import Pizza, NYStyleCheesePizza, NYStyleChickenPizza, NYStyleVeggiePizza
-from pizza import CLStyleVeggiePizza, CLStyleCheesePizza, CLStyleChickenPizza
+
+# Import PRODUCTS
+from FactoryMethodPattren.pizza import Pizza, NYStyleCheesePizza, NYStyleChickenPizza, NYStyleVeggiePizza, \
+    CLStyleVeggiePizza, CLStyleCheesePizza, CLStyleChickenPizza
 
 
 class PizzaStore(ABC):
@@ -16,12 +18,14 @@ class PizzaStore(ABC):
 
         return self.pizza
 
+    # Factory method
     @abstractmethod
     def create_pizza(self, pizza_type) -> Pizza:
         ...
 
 
 class NYPizzaStore(PizzaStore):
+    # Implement the factory method
     def create_pizza(self, pizza_type) -> Pizza:
         if pizza_type == "cheese":
             return NYStyleCheesePizza()
@@ -32,6 +36,7 @@ class NYPizzaStore(PizzaStore):
 
 
 class CaliforniaPizzaStore(PizzaStore):
+    # Implement the factory method
     def create_pizza(self, pizza_type) -> Pizza:
         if pizza_type == "cheese":
             return CLStyleCheesePizza()

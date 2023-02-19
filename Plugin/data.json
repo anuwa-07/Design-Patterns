@@ -1,0 +1,23 @@
+{
+  "plugins": ["plugin.golem"],
+  "characters": [
+    {
+      "type": "human",
+      "name": "aragon"
+    },
+    {
+      "type": "hobbit",
+      "name": "frodo"
+    },
+    {
+      "type": "elf",
+      "name": "legolas"
+    },
+    {
+      "type": "golem",
+      "name": "smeegol"
+    }
+  ]
+}
+
+
