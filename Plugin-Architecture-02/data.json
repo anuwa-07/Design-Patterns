@@ -1,0 +1,16 @@
+{
+  "characters": [
+    {
+      "type": "Human",
+      "name": "Aragon"
+    },
+    {
+      "type": "Els",
+      "name": "Legolas"
+    },
+    {
+      "type": "Wizard",
+      "name": "Gandalf"
+    }
+  ]
+}
